@@ -1,0 +1,39 @@
+return {
+  'nvim-treesitter/nvim-treesitter',
+  lazy = false,
+  build = ':TSUpdate',
+  opts = {
+  indent = { enable = true }, 
+  highlight = { enable = true },
+  folds = { enable = true },
+  ensure_installed = {
+    "bash",
+    "c",
+    "diff",
+    "html",
+    "javascript",
+    "jsdoc",
+    "json",
+    "lua",
+    "luadoc",
+    "luap",
+    "markdown",
+    "markdown_inline",
+    "printf",
+    "python",
+    "query",
+    "regex",
+    "toml",
+    "tsx",
+    "typescript",
+    "vim",
+    "vimdoc",
+    "xml",
+    "yaml",
+  },
+  config = function(_,opts)
+      local TS = require("nvim-treesitter")
+      TS.setup(opts)
+  end
+}
+}

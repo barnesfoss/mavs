@@ -24,6 +24,14 @@ return {
 		git = { enabled = true },
 	},
 	keys = {
+
+		{
+			"<leader>gg",
+			function()
+				Snacks.lazygit()
+			end,
+			desc = "Lazygit",
+		},
 		{
 			"<leader>gi",
 			function()

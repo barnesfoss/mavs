@@ -52,5 +52,33 @@ return {
 			end,
 			desc = "GitHub Pull Requests (all)",
 		},
+		{
+			"<leader>z",
+			function()
+				Snacks.zen()
+			end,
+			desc = "Toggle Zen Mode",
+		},
+		{
+			"<leader>Z",
+			function()
+				Snacks.zen.zoom()
+			end,
+			desc = "Toggle Zoom",
+		},
+		{
+			"<c-/>",
+			function()
+				Snacks.terminal()
+			end,
+			desc = "Toggle Terminal",
+		},
+		{
+			"<c-_>",
+			function()
+				Snacks.terminal()
+			end,
+			desc = "which_key_ignore",
+		},
 	},
 }

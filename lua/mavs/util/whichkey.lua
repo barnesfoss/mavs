@@ -14,5 +14,13 @@ return function(_)
 		{ "<leader>/", icon = { icon = "󰊠", color = "green" } },
 		{ "<leader>fb", icon = { icon = "󰓩", color = "green" } },
 		{ "<leader>fh", icon = { icon = "󰋖", color = "green" } },
+		-- Zen
+		{ "<leader>z", icon = { icon = "", color = "blue" } },
+		{ "<leader>Z", icon = { icon = "", color = "blue" } },
+		-- Github
+		{ "<leader>gi", icon = { icon = "", color = "white" } },
+		{ "<leader>gI", icon = { icon = "", color = "white" } },
+		{ "<leader>gp", icon = { icon = "󰓂", color = "white" } },
+		{ "<leader>gP", icon = { icon = "󰓂", color = "white" } },
 	})
 end

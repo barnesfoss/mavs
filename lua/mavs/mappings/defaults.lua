@@ -14,9 +14,9 @@ return {
 		-- Terminal
 		{ "n", "<leader>tv", [[<cmd>vsplit | term<cr>A]], { desc = "Vertical" } },
 		{ "n", "<leader>th", [[<cmd>split | term<cr>A]], { desc = "Horizontal" } },
-		-- Neoscroll
-		{ "n", "<M-Up>", vim.cfg.movement.pgup },
-		{ "n", "<M-Down>", vim.cfg.movement.pgdn },
+		-- Paging
+		{ "n", "<M-Up>", "<C-b>" },
+		{ "n", "<M-Down>", "<C-f>" },
 		-- Debugger
 		{ "n", "<leader>du", require("dapui").toggle, { desc = "Toggle DapUI" } },
 	},

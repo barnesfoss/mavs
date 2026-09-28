@@ -1,6 +1,5 @@
 -- Initialzes all of the utilities
 local load = {
-	"movement",
 	"debuggers",
 	"whichkey",
 	"misc",

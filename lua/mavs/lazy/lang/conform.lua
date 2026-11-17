@@ -12,6 +12,7 @@ return {
 				html = { "prettier" },
 				c = { "clang_format" },
 				cpp = { "clang_format" },
+				meson = { "meson" },
 			},
 
 			format_on_save = {

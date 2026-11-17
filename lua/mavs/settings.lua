@@ -4,8 +4,8 @@ local opt = {
 	mouse = "a",
 	clipboard = "unnamedplus",
 	expandtab = true,
-	shiftwidth = 4,
-	tabstop = 4,
+	shiftwidth = 2,
+	tabstop = 2,
 	smartindent = true,
 	termguicolors = true,
 	cursorline = true,
@@ -39,3 +39,4 @@ vim.diagnostic.config({
 	update_in_insert = false,
 	severity_sort = true,
 })
+vim.o.shell = "zsh"
